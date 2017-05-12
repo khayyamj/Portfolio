@@ -1,0 +1,19 @@
+.header {
+  background-image: url('../../images/background-Monument-Valley.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
