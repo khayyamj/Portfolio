@@ -1,0 +1,47 @@
+.projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  background-color: #FEF9E7;
+  justify-content: center;
+  align-items: center;
+}
+.projects-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid green;
+  width: 80%;
+}
+
+.project-display {
+  background-repeat: no-repeat;
+  background-size: 250px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+
+  .project-title-bold {
+    font-weight: bold;
+    background-color: #FEF9E7;
+    margin: 0;
+    text-align: center;
+  }
+  .project-title-highlights {
+    background-color: #FEF9E7;
+    text-align: center;
+  }
+}
+.troop51 {
+  background-image: url('../../images/portfolio/Troop51.png');
+}
+.topsecret {
+    background-image: url('../../images/portfolio/TopSecret.png');
+}
