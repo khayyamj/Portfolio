@@ -1,0 +1,42 @@
+.resume-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-title {
+  font-size: 96px;
+  margin-bottom: 0;
+}
+
+.resume-subtitle {
+  font-style: italic;
+  margin-top: 0;
+
+}
+
+.resume-profile-picture {
+  background-image: url('../../images/team/profile_pic.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 250px;
+}
+
+.resume-boldtext {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.resume-text {
+  margin: 0;
+  a {
+    color: yellow;
+  }
+}

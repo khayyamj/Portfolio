@@ -1,0 +1,30 @@
+.social-media-icons-container {
+  font-weight: bold;
+  display: flex;
+  flex-flow: row;
+  height: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+.social-media-icons {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.twitter {
+  background-image: url('../../images/icons/twitter.png');
+}
+
+.github {
+  background-image: url('../../images/icons/github.png');
+}
+
+.linkedin {
+  background-image: url('../../images/icons/linkedin.png');
+}
