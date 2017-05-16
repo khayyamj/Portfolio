@@ -5,6 +5,7 @@ import Spacer from '../../Components/Spacer/Spacer'
 import Spacer2 from '../../Components/Spacer2/Spacer2'
 import Projects from '../../Components/Projects/Projects'
 import Resume from '../../Components/Resume/Resume'
+import ContactMe from '../../Components/ContactMe/ContactMe'
 import './Main.scss'
 
 const Main = () => {
@@ -16,6 +17,7 @@ const Main = () => {
       <Projects />
       <Spacer2 />
       <Resume />
+      <ContactMe />
     </div>
   )
 }
