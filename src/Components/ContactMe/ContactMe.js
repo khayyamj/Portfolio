@@ -14,7 +14,6 @@ const ContactMe = () => {
           placeholder='Your Phone' />
         <textarea
           rows='5'
-          columns='250'
           placeholder='Your Message' />
         <button className='ContactMe-form-button'>Send Message</button>
       </form>

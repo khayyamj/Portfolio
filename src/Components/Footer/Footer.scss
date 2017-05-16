@@ -1,0 +1,11 @@
+.Footer-container {
+  width: 100%;
+  background-color: white;
+  margin: 25px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
