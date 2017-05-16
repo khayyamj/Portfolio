@@ -6,6 +6,7 @@
   background-color: #FEF9E7;
   justify-content: center;
   align-items: center;
+  padding: 100px 0;
 }
 
 .skills-title {
@@ -14,6 +15,15 @@
   justify-content: center;
   align-items: center;
   padding: 25px;
+  h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  p {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+  }
 }
 
 .skills-set {

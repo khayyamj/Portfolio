@@ -3,6 +3,25 @@ import './NavBar.scss'
 
 const pageName = 'Khayyam.ga'
 
+const links = [
+  {
+    name: 'Skills',
+    href: '#skills'
+  },
+  {
+    name: 'Projects',
+    href: '#projects'
+  },
+  {
+    name: 'Resume',
+    href: '#resume'
+  },
+  {
+    name: 'Contact',
+    href: '#Contact'
+  }
+]
+
 const NavBar = () => {
   return (
     <nav className='navbar navbar-default navbar-fixed-top'>
@@ -11,18 +30,13 @@ const NavBar = () => {
       </div>
       <div>
         <ul className='navbar-right'>
-          <li>
-            <a className='navbar-item' href='#services'>Skills</a>
-          </li>
-          <li>
-            <a href='#portfolio'>Projects</a>
-          </li>
-          <li>
-            <a href='#team'>Resume</a>
-          </li>
-          <li>
-            <a href='#contact'>Contact</a>
-          </li>
+          {links.map(link => {
+            return (
+              <li key={link.name}>
+                <a className='navbar-item' href={link.href}>{link.name}</a>
+              </li>
+            )
+          })}
         </ul>
       </div>
     </nav>

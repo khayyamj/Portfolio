@@ -6,38 +6,55 @@
   background-color: #FEF9E7;
   justify-content: center;
   align-items: center;
+  padding: 100px 0;
+  h2 {
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+  }
 }
 .projects-container {
+  padding-top: 25px;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 2px solid green;
   width: 80%;
 }
-
+.projects-individual {
+  display: flex;
+  flex-flow: column;
+  margin: 10px 0;
+  padding: 0;
+  height: 350px;
+}
 .project-display {
   background-repeat: no-repeat;
-  background-size: 250px;
+  // background-size: 250px;
+  background-size: cover;
+  background-position: center;
   width: 250px;
   height: 250px;
   padding: 10px;
   margin: 10px;
-  border: 1px solid red;
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
-
-  .project-title-bold {
-    font-weight: bold;
-    background-color: #FEF9E7;
-    margin: 0;
-    text-align: center;
-  }
-  .project-title-highlights {
-    background-color: #FEF9E7;
-    text-align: center;
-  }
+}
+.project-title .bold {
+  font-weight: bold;
+  background-color: #FEF9E7;
+  margin: 0;
+  text-align: center;
+}
+.project-title .highlights {
+  background-color: #FEF9E7;
+  text-align: center;
 }
 .troop51 {
   background-image: url('../../images/portfolio/Troop51.png');

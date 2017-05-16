@@ -4,7 +4,7 @@ import './Resume.scss'
 
 const Resume = () => {
   return (
-    <div className='resume-container'>
+    <div className='resume-container' id='resume'>
       <h1 className='resume-title'>My Resume</h1>
       <p className='resume-subtitle'>Professional Web Developer Resume</p>
       <div className='resume-profile-picture' />

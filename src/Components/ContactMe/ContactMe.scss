@@ -2,13 +2,19 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-image: url('../../images/code-screen2.jpeg');
+  background-image: url('../../images/world-map-dotted-black.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 600px;
   border: 1px solid red;
+  padding: 100px 0;
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    text-size: 40px;
+  }
 }
 
 .ContactMe-form-container {

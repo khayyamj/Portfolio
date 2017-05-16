@@ -15,7 +15,7 @@ import sqlLogo from '../../images/icons/sql.png'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <div className='skills-title'>
         <h2>Skills</h2>
         <p>Top Proficiencies</p>
