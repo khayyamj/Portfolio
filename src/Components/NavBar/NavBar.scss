@@ -8,15 +8,14 @@ li {
 
 .navbar {
   width: 100%;
-  height: 50px;
-  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar-default {
-  position: static;
+  position: relative;
+  top: -100px;
 }
 
 .navbar-fixed-top {
@@ -36,8 +35,10 @@ li {
 
 .navbar-right {
   width: 250px;
+  height: 50px;
   padding-right: 50px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   a{
     color: white;
@@ -46,5 +47,14 @@ li {
 }
 
 .navbar-item {
-
+  min-width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.navbar-item:hover {
+  color: gold;
+}
+.navbar-item:active {
+  background-color: gold;
 }

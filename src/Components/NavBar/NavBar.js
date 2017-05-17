@@ -19,7 +19,7 @@ const links = [
   },
   {
     name: 'Contact',
-    href: '#Contact'
+    href: '#contact'
   }
 ]
 
@@ -43,7 +43,7 @@ class NavBar extends React.Component {
 
   handleScroll (event) {
     scrollTop = event.srcElement.body.scrollTop
-    let itemTranslate = Math.min(0, scrollTop / 3 - 65)
+    let itemTranslate = Math.min(0, scrollTop / 3 - 35)
     this.setState({ transform: itemTranslate })
   }
 
