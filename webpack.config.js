@@ -24,8 +24,11 @@ module.exports = {
         enforce: 'pre',
         test: /\.js$/,
         loader: 'eslint-loader',
-        include: path.resolve(__dirname, 'src'),
-        exclude: /node_modules/
+        exclude: [
+          /node_modules/,
+          path.resolve(__dirname, 'src/assets/')
+        ],
+        include: path.resolve(__dirname, 'src')
       },
       {
         test: /\.scss$/,
@@ -33,7 +36,7 @@ module.exports = {
         use: cssConfig // changes based on production or development
       },
       {
-        test: /\.(jpe?g|png|gif|svg|ico)$/i,
+        test: /\.(jpe?g|png|gif|svg|ico|pdf)$/i,
         use: 'file-loader?images/name=[name].[ext]&outputPath=images/'
       },
       { test: /\.js$/,

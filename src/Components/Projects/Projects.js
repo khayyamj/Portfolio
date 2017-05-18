@@ -7,37 +7,43 @@ const projects = [
     title: 'Troop 51',
     skills: 'React - Node - SQL',
     id: 'troop51',
-    projProps: ''
+    projProps: '',
+    link: 'http://troop51.com'
   },
   {
     title: 'Top Secret',
     skills: 'Angular - Node - MongoDB',
     id: 'topsecret',
-    projProps: ''
+    projProps: '',
+    link: 'http://wearetopsecret.cf'
   },
   {
     title: 'Troop 51',
     skills: 'Other Skills Used',
     id: 'project3',
-    projProps: ''
+    projProps: '',
+    link: ''
   },
   {
     title: 'Troop 51',
     skills: 'Other Skills Used',
     id: 'project4',
-    projProps: ''
+    projProps: '',
+    link: ''
   },
   {
     title: 'Troop 51',
     skills: 'Other Skills Used',
     id: 'project5',
-    projProps: ''
+    projProps: '',
+    link: ''
   },
   {
     title: 'Troop 51',
     skills: 'Other Skills Used',
     id: 'project6',
-    projProps: ''
+    projProps: '',
+    link: ''
   }
 ]
 
@@ -50,7 +56,7 @@ const Projects = () => {
         {projects.map(project => {
           return (
             <div className='projects-individual' key={project.id}>
-              <div className={`project-display ${project.id}`} />
+              <a href={project.link}><div className={`project-display ${project.id}`} /></a>
               <div className='project-title'>
                 <h3 className='project-title bold'>{project.title}</h3>
                 <p className='project-title highlights'>{project.skills}</p>

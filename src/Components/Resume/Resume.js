@@ -11,7 +11,7 @@ const Resume = () => {
       <p className='resume-boldtext'>Khayyam Jones</p>
       <p className='resume-text'>Full Stack Web Developer</p>
       <SocialMediaIcons />
-      <p className='resume-text'>Click <a>here</a> to download my resume</p>
+      <p className='resume-text'>Click <a href='../../assets/resume.pdf'>here</a> to download my resume</p>
     </div>
   )
 }

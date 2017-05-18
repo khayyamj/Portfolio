@@ -36,7 +36,6 @@
 }
 .project-display {
   background-repeat: no-repeat;
-  // background-size: 250px;
   background-size: cover;
   background-position: center;
   width: 250px;
@@ -46,11 +45,11 @@
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
+  transition: all cubic-bezier(0.73, 0, 0.25, 1) 0.5s;
 }
 .project-display:hover {
-  transition: all cubic-bezier(0.73, 0, 0.25, 1) 0.5s;
   background: fade-out(gold, .9);
-
+  background-image: url('../../images/icons/forward-arrow.png');
 }
 .project-title .bold {
   font-weight: bold;
