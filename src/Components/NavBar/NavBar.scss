@@ -16,6 +16,8 @@ li {
 .navbar-default {
   position: relative;
   top: -100px;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 .navbar-fixed-top {
@@ -23,6 +25,8 @@ li {
   top: 0px;
   background-color: black;
   z-index: 1;
+  font-size: 18px;
+  font-weight: 100;
 }
 
 .navbar-header {
