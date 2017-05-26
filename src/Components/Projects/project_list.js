@@ -21,10 +21,10 @@ const projects = [
     link: 'https://www.codewars.com/users/khayyamj'
   },
   {
-    title: 'Troop 51',
-    skills: 'Other Skills Used',
-    id: 'project4',
-    projProps: '',
+    title: 'Ancestry',
+    skills: 'React - HTML - CSS',
+    id: 'ancestry',
+    projProps: '/ancestry',
     link: ''
   },
   {

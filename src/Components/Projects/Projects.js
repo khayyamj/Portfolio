@@ -1,5 +1,5 @@
 import React from 'react'
-// import troop51Image from '../../images/portfolio/Troop51.png'
+import { Link } from 'react-router-dom'
 import './Projects.scss'
 import projects from './project_list'
 
@@ -12,7 +12,7 @@ const Projects = () => {
         {projects.map(project => {
           return (
             <div className='projects-individual' key={project.id}>
-              <a href={project.link}><div className={`project-display ${project.id}`} /></a>
+              {project.projProps === '' ? <a href={project.link}><div className={`project-display ${project.id}`} /></a> : <Link to={project.projProps}><div className={`project-display ${project.id}`} /></Link>}
               <div className='project-title'>
                 <h3 className='project-title bold'>{project.title}</h3>
                 <p className='project-title highlights'>{project.skills}</p>
