@@ -4,7 +4,7 @@ import SideBar from './SideBar'
 import PropTypes from 'prop-types'
 import './Main.scss'
 
-const Ancestry = (props) => {
+const Main = (props) => {
   return (
     <div className='main-body-container'>
       <Body />
@@ -13,8 +13,8 @@ const Ancestry = (props) => {
   )
 }
 
-Ancestry.propTypes = {
+Main.propTypes = {
   openModal: PropTypes.func.isRequired
 }
 
-export default Ancestry
+export default Main
