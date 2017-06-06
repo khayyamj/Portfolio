@@ -28,10 +28,10 @@ const projects = [
     link: ''
   },
   {
-    title: 'Troop 51',
-    skills: 'Other Skills Used',
-    id: 'project5',
-    projProps: '',
+    title: 'Drag & Drop Knight',
+    skills: 'React DnD',
+    id: 'knight',
+    projProps: '/knight',
     link: ''
   },
   {

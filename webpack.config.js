@@ -48,10 +48,10 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
-    // port: 9000,
     hot: true,
     stats: "errors-only",
-    open: true
+    open: true,
+    historyApiFallback: true
   },
   plugins: [
     new ExtractTextPlugin({
