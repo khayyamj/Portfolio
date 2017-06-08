@@ -35,11 +35,11 @@ const projects = [
     link: ''
   },
   {
-    title: 'Troop 51',
-    skills: 'Other Skills Used',
-    id: 'project6',
+    title: 'Github Browser',
+    skills: 'React Native (iOS)',
+    id: 'github-browser',
     projProps: '',
-    link: ''
+    link: 'https://github.com/khayyamj/GitHub-Browser'
   }
 ]
 
